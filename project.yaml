@@ -1,0 +1,73 @@
+# .project metadata for Radius
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "radius"
+name: "Radius"
+description: "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default."
+type: "project"
+project_lead: "rynowak" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#radius"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-04-16T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/65" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/radius-project/radius"
+
+website: "https://radapp.io/"
+
+artwork: "https://landscape.cncf.io/logos/radius.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/radius-project/radius/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "radius-project/radius"
+
+social:
+  twitter: "https://twitter.com/radapp_io"
+
+security:
+  policy:
+    path: "https://github.com/radius-project/radius/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/radius-project/radius/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/radius-project/radius/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/radius-project/radius/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/radius-project/radius/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/radius-project/radius/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 78/100
+# Documentation: 81 | License: 86 | Best Practices: 95 | Security: 64
