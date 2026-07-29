@@ -10,7 +10,7 @@ maintainers:
     teams:
       - name: project-maintainers
         members:
-          - nicolejms
           - kachawla
           - sylvainsf
           - willtsai
+          - rynowak
