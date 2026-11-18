@@ -26,7 +26,7 @@ repositories:
 
 website: "https://radapp.io/"
 
-artwork: "https://landscape.cncf.io/logos/radius.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/radius"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
